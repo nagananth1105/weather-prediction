@@ -1,60 +1,33 @@
-# Weather Prediction Analysis (Next 8 Days)
+# Weather Dashboard
 
-## Overview
-This project is a weather prediction analysis tool that fetches real-time weather data and forecasts for the next 8 days. It displays weather conditions on an interactive map using HTML, CSS, and JavaScript.
+This is a weather dashboard application that allows users to search for weather information for a specific city. The dashboard provides:
+
+- Current weather information (temperature, condition, humidity, wind speed)
+- Hourly weather forecast (for the next 12 hours)
+- 8-day weather forecast (including high and low temperatures)
+- Interactive map showing the city's location using Leaflet.js
 
 ## Features
-- Displays current weather and 8-day forecast
-- Interactive map integration to visualize weather patterns
-- Responsive and user-friendly UI
-- Fetches real-time data using an external weather API
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- WeatherAPI.com (or any weather API of choice)
-- Leaflet.js (for interactive maps)
+- **Search for a city**: Enter the name of any city to get the current weather and forecast data.
+- **Hourly forecast**: View hourly weather data for the selected city for up to the next 12 hours.
+- **8-day forecast**: See a detailed forecast for the next 8 days, including the average, max, and min temperatures.
+- **Interactive map**: View the location of the city on an interactive map.
 
-## Installation & Setup
+## Installation
+
+To run the Weather Dashboard locally, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- A web browser (Google Chrome, Firefox, etc.)
+- An API key from [WeatherAPI](https://www.weatherapi.com/).
+
+### Setup
+
 1. Clone the repository:
-   ```sh
-   git clone :https://github.com/nagananth1105/weather-prediction/
-   ```
-2. Navigate to the project folder:
-   ```sh
-   cd weather-prediction
-   ```
-3. Open `index.html` in your browser.
-4. (Optional) Deploy on a local server:
-   ```sh
-   npx http-server
-   ```
-
-## API Configuration
-1. Sign up for an API key from [WeatherAPI.com](https://api.weatherapi.com/v1/).
-2. Add the API key to `script.js`:
-   ```js
-   const apiKey = '9d44f946b87840e49fe30731251501';
-   ```
-
-## Usage
-- Enter a city name or use geolocation to fetch weather details.
-- View weather parameters such as temperature, humidity, wind speed, and conditions.
-- Check the weather forecast for the next 8 days.
-- Navigate the interactive map to see weather trends in different regions.
-
-## File Structure
-```
-/weather-prediction
-│── index.html      # Main HTML file
-│── style.css       # Stylesheet for UI design
-│── script.js       # JavaScript for API calls and map integration
-│── assets/         # Images and other assets
-```
-
-## Future Enhancements
-- Add AI-based weather trend predictions.
-- Improve UI with animations and better responsiveness.
-- Integrate multiple weather data sources for accuracy.
-
+   ```bash
+   git clone https://github.com/your-username/weather-dashboard.git
+   cd weather-dashboard
