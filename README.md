@@ -19,7 +19,7 @@ This project is a weather prediction analysis tool that fetches real-time weathe
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/weather-prediction.git
+   git clone :https://github.com/nagananth1105/weather-prediction/
    ```
 2. Navigate to the project folder:
    ```sh
@@ -35,7 +35,7 @@ This project is a weather prediction analysis tool that fetches real-time weathe
 1. Sign up for an API key from [WeatherAPI.com](https://api.weatherapi.com/v1/).
 2. Add the API key to `script.js`:
    ```js
-   const apiKey = 'YOUR_API_KEY';
+   const apiKey = '9d44f946b87840e49fe30731251501';
    ```
 
 ## Usage
